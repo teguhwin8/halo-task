@@ -1,4 +1,4 @@
-import Sidebar from "./Sidebar";
+import Sidebar from "./sidebar";
 import Footer from "./footer";
 import Head from "next/head";
 
