@@ -9,9 +9,9 @@ export default function Layout({ children }) {
 				<title>Halo Task</title>
 			</Head>
 			<div className="flex">
-				<div className="flex-none w-0 md:w-60 xl:w-80 transition-all duration-150 bg-slate-100">
+				<div className="flex-none w-0 md:w-60 xl:w-80 transition-all duration-200 ease-in bg-slate-100 overflow-hidden">
 					<div className="flex flex-col h-screen">
-						<div className="flex-1 overflow-y-auto">
+						<div className="flex-1 overflow-y-auto overflow-x-hidden">
 							<Sidebar />
 						</div>
 						<div className="flex-none w-full">
