@@ -16,3 +16,6 @@ npm run dev
 yarn install
 yarn dev
 ```
+___
+## Demo
+<a href="https://halo-task.vercel.app/">https://halo-task.vercel.app/</a>
