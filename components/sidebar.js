@@ -4,10 +4,10 @@ import Menu from "./menu";
 
 function Sidebar() {
 	return (
-		<>
+		<div>
 			<Logo />
-			<Menu path="/task" title="Task" icon={ClipboardList} />
-		</>
+			<Menu path="/task" title="Task" icon={<ClipboardList />} />
+		</div>
 	);
 }
 

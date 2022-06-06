@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function Layout({ children }) {
 	return (
-		<>
+		<div>
 			<Head>
 				<title>Halo Task</title>
 			</Head>
@@ -21,6 +21,6 @@ export default function Layout({ children }) {
 				</div>
 				<div className="flex-1 h-screen overflow-y-auto">{children}</div>
 			</div>
-		</>
+		</div>
 	);
 }
