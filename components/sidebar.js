@@ -1,5 +1,6 @@
-import ClipboardList from "./hero_icons/clipboardList";
-import ViewGrid from "./hero_icons/viewGrid";
+import { FcBullish } from "react-icons/fc";
+import { FcTodoList } from "react-icons/fc";
+import { FcHome } from "react-icons/fc";
 import Logo from "./logo";
 import Menu from "./menu";
 
@@ -8,12 +9,17 @@ function Sidebar() {
 		{
 			title: "Lobby",
 			path: "/",
-			icon: <ViewGrid />,
+			icon: <FcHome />,
+		},
+		{
+			title: "Project",
+			path: "/project",
+			icon: <FcBullish />,
 		},
 		{
 			title: "Task",
 			path: "/task",
-			icon: <ClipboardList />,
+			icon: <FcTodoList />,
 		},
 	];
 	return (
