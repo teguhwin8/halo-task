@@ -4,11 +4,24 @@ import Logo from "./logo";
 import Menu from "./menu";
 
 function Sidebar() {
+	const menus = [
+		{
+			title: "Lobby",
+			path: "/",
+			icon: <ViewGrid />,
+		},
+		{
+			title: "Task",
+			path: "/task",
+			icon: <ClipboardList />,
+		},
+	];
 	return (
 		<div>
 			<Logo />
-			<Menu path="/" title="Lobby" icon={<ViewGrid />} />
-			<Menu path="/task" title="Task" icon={<ClipboardList />} />
+			{menus.map((menu, index) => (
+				<Menu key={index} menu={menu} />
+			))}
 		</div>
 	);
 }
