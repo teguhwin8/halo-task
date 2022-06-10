@@ -1,4 +1,4 @@
-import { FcBullish } from "react-icons/fc";
+import { FcFolder } from "react-icons/fc";
 import { FcTodoList } from "react-icons/fc";
 import { FcHome } from "react-icons/fc";
 import Logo from "./logo";
@@ -13,12 +13,12 @@ function Sidebar() {
 		},
 		{
 			title: "Project",
-			path: "/project",
-			icon: <FcBullish />,
+			path: "/projects",
+			icon: <FcFolder />,
 		},
 		{
 			title: "Task",
-			path: "/task",
+			path: "/tasks",
 			icon: <FcTodoList />,
 		},
 	];

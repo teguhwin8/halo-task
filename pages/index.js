@@ -1,9 +1,11 @@
 import Layout from "../components/layout";
 
-export default function Home() {
+function Home() {
 	return (
 		<Layout>
-			<div className="text-2xl">Lobby</div>
+			<div>Home</div>
 		</Layout>
 	);
 }
+
+export default Home;

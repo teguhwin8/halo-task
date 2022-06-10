@@ -15,7 +15,7 @@ function Menu(props) {
 					<div
 						className={router.pathname === menu.path ? activeClasses : classes}
 					>
-						<span className="text-lg mr-4">{menu.icon}</span>
+						<span className="text-xl mr-4">{menu.icon}</span>
 						<span className="text-sm">{menu.title}</span>
 					</div>
 				</a>

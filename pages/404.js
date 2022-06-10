@@ -1,11 +1,11 @@
 import Layout from "../components/layout";
 
-function Task() {
+function NotFound() {
 	return (
 		<Layout>
-			<div className="text-2xl">Task</div>
+			<div>NotFound</div>
 		</Layout>
 	);
 }
 
-export default Task;
+export default NotFound;
