@@ -1,7 +1,7 @@
-import Sidebar from "./sidebar";
-import Footer from "./footer";
+import Sidebar from "../sidebar";
+import Footer from "../footer";
 import Head from "next/head";
-import TopBar from "./topbar";
+import TopBar from "../topbar";
 
 export default function Layout({ children }) {
 	return (
