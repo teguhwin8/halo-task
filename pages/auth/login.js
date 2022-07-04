@@ -37,8 +37,8 @@ export default function Login() {
 			<div className="card w-full max-w-[360px] xl:max-w-[400px]">
 				<div className="card-body">
 					<div className="text-center mb-4">
-						<h1 className="mt-4 mb-6 font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-800">
-							Login to HaloTask
+						<h1 className="mt-4 mb-9 font-extrabold text-transparent text-2xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-800">
+							Are you ready to fight? <br /> Login now!
 						</h1>
 					</div>
 					<form>
@@ -48,7 +48,7 @@ export default function Login() {
 							</label>
 							<input
 								type="email"
-								placeholder="youremail@domain.com"
+								placeholder="youremail@provider.com"
 								className={`form-control w-full ${
 									!validEmail ? "border-red-400" : "border-gray-200"
 								}`}
